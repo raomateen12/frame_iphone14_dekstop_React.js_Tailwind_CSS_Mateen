@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import p1 from '../assets/img/p4.jpg'; 
+import p1 from '../assets/img/p3.jpg'; 
 
 const Card1 = () => {
   const [activatedCard, setActivatedCard] = useState(null);
