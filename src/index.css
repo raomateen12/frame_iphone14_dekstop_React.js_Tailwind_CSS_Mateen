@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: black;
+}
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .main-image {
+        display: none; /* Hide the main image */
+    }
+
+    .small-image {
+        display: block; /* Show small image */
+        width: 100%; /* Set full width */
+        height: auto; /* Maintain aspect ratio */
+        object-fit: cover; /* Cover the space */
+        filter: contrast(1.25) brightness(0.9); /* Same filters as main image */
+    }
+}
